@@ -18,8 +18,8 @@ const Home: NextPage = () => {
             src="/assets/profile-picture.jpg"
             alt="profile picture"
             className="rounded-full"
-            width={240}
-            height={240}
+            width={225}
+            height={225}
           />
           <div>
             <div className="flex flex-row items-center justify-center gap-6 text-center lg:justify-start lg:gap-12">
