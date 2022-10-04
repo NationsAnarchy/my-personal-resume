@@ -1,7 +1,7 @@
 import type { DocumentContext } from "next/document";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-const APP_NAME = "nextarter-tailwind";
+const APP_NAME = "Phúc 'Scott' Nguyễn - My Resume";
 
 class MyDocument extends Document {
   static getInitialProps(ctx: DocumentContext) {

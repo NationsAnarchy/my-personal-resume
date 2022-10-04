@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               >
                 CMC Global
               </a>{" "}
-              in Viet Nam. Thank you for visiting my personal resume website!
+              in Viet Nam. Thank you for visiting my resume website!
             </p>
             <div className="flex justify-center gap-5 lg:justify-start">
               <a
