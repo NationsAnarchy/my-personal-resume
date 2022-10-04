@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
 
-import CTASection from "lib/components/samples/CTASection";
-import SomeText from "lib/components/samples/SomeText";
+import AnchorLink from "lib/components/ui/AnchorLink";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-[60vh] flex-col items-center justify-center gap-8 text-center">
-      <SomeText />
-      <CTASection />
+    <div className="mx-auto text-center">
+      <h1 className="text-2xl font-bold">Test</h1>
+      <AnchorLink href="https://vercel.com">Vercel.com</AnchorLink>
     </div>
   );
 };
