@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             height={225}
           />
           <div>
-            <div className="flex flex-row items-center justify-center gap-6 text-center lg:justify-start lg:gap-12">
+            <div className="flex flex-col items-center justify-center gap-4 text-center lg:flex-row lg:justify-start lg:gap-12">
               <h1 className="text-3xl font-bold lg:text-4xl">
                 Phúc &apos;Scott&apos; Nguyễn
               </h1>
