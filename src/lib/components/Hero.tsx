@@ -4,6 +4,7 @@ import {
   FaGithubSquare,
   FaGlobeAsia,
   FaLinkedin,
+  FaSkype,
 } from "react-icons/fa";
 
 import ThemeSelect from "lib/components/layout/ThemeSelect";
@@ -31,7 +32,6 @@ const Hero = () => {
             <a
               href="https://cmcglobal.com.vn"
               aria-label="CMC Global"
-              target="_blank"
               rel="noreferrer noopener"
               className="font-bold text-info hover:underline"
             >
@@ -75,6 +75,15 @@ const Hero = () => {
               rel="noreferrer noopener"
             >
               <FaLinkedin size={32} />
+            </a>
+            <a
+              href="skype:live:phuc.nguyen-the?add"
+              className="justify-center hover:text-primary"
+              aria-label="My Skype account"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <FaSkype size={32} />
             </a>
           </div>
         </div>
