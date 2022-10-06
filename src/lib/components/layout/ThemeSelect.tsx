@@ -1,4 +1,4 @@
-const themes = ["autumn", "forest"];
+const themes = ["lemonade", "forest"];
 
 const ThemeSelect = () => {
   return (
