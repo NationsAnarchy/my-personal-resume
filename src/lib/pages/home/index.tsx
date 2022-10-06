@@ -6,7 +6,7 @@ import Technical from "lib/components/Technical";
 
 const Home: NextPage = () => {
   return (
-    <div className="mx-auto">
+    <div className="mx-auto flex-col">
       <Hero />
       <Introduction />
       <Technical />
