@@ -33,7 +33,7 @@ const Hero = () => {
               href="https://cmcglobal.com.vn"
               aria-label="CMC Global"
               rel="noreferrer noopener"
-              className="font-bold text-info hover:underline"
+              className="font-bold text-primary hover:underline"
             >
               CMC Global
             </a>{" "}
