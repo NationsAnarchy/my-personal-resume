@@ -5,7 +5,9 @@ const Technical = () => {
       <div className="flex max-w-[600px] flex-wrap justify-center gap-6 lg:justify-start">
         <div className="card-compact min-w-[150px] rounded-md bg-accent  shadow-xl">
           <div className="card-body">
-            <h2 className="card-title text-center">HTML5, CSS3</h2>
+            <h2 className="card-title text-center">
+              HTML5, CSS3 (+ SASS with SCSS)
+            </h2>
           </div>
         </div>
         <div className="card-compact min-w-[150px] rounded-md bg-accent shadow-xl">
@@ -23,14 +25,21 @@ const Technical = () => {
         <div className="card-compact min-w-[150px] rounded-md bg-accent shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-center">
-              UI libraries: Material, Ant, Chakra, Tailwind, Mantine
+              UI libraries: Material, AntD, Chakra UI, TailwindCSS, etc
             </h2>
           </div>
         </div>
         <div className="card-compact min-w-[150px] rounded-md bg-accent shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-center">
-              Traditional SQL DBs, Java/C# on backend (limited)
+              Traditional SQL DBs, Java Spring/C# .NET (limited)
+            </h2>
+          </div>
+        </div>
+        <div className="card-compact min-w-[150px] rounded-md bg-accent shadow-xl">
+          <div className="card-body">
+            <h2 className="card-title text-center">
+              VS Code, JetBrains IDEs, Git/SVN
             </h2>
           </div>
         </div>

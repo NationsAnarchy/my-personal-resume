@@ -18,7 +18,7 @@ const Introduction = () => {
         <li>
           <b>Long-term goals</b>: I am not limiting myself to anything, so I am
           willing to explore any available opportunities within the industry. It
-          can be mobile, cloud, data, etc.
+          can be <b>mobile, cloud, data</b>, etc.
         </li>
       </ul>
     </div>
