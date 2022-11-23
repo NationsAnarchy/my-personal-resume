@@ -4,9 +4,9 @@ interface Props {
 
 const SkillItem = ({ details }: Props) => {
   return (
-    <div className="card-compact min-w-[150px] rounded-md bg-accent shadow-xl">
+    <div className="card-compact max-w-[600px] rounded-md bg-accent shadow-xl">
       <div className="card-body">
-        <h2 className="card-title text-justify">{details}</h2>
+        <h2 className="card-title">{details}</h2>
       </div>
     </div>
   );
