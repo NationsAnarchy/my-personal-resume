@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const NextSitemapConfig = {
-  siteUrl: "https://nextarter-tailwind.sznm.dev",
+  siteUrl: "https://phucnguyen0110-resume.vercel.app",
   generateRobotsTxt: true,
 };
 
