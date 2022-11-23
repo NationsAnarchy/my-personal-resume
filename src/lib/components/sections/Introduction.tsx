@@ -1,7 +1,9 @@
+import SectionTitle from "lib/components/contents/SectionTitle";
+
 const Introduction = () => {
   return (
     <div className="max-w-4xl p-4 text-justify">
-      <h1 className="my-4 text-xl font-bold lg:text-2xl">About me</h1>
+      <SectionTitle title="About Me" />
       <ul className="list-inside list-disc">
         <li>
           <b>I have been a developer for around 2 years</b>, after a great

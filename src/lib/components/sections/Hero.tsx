@@ -7,6 +7,7 @@ import {
   FaSkype,
 } from "react-icons/fa";
 
+import LinkComponent from "lib/components/contents/LinkComponent";
 import ThemeSelect from "lib/components/layout/ThemeSelect";
 
 const Hero = () => {
@@ -28,63 +29,47 @@ const Hero = () => {
             <ThemeSelect />
           </div>
           <p className="max-w-xl py-6 text-center lg:text-left">
-            <b>Junior Front-end Developer</b> for{" "}
-            <a
+            <b>Junior/Mid Front-end Developer</b> for{" "}
+            <LinkComponent
               href="https://cmcglobal.com.vn"
-              aria-label="CMC Global"
-              rel="noreferrer noopener"
-              className="font-bold text-primary hover:underline"
+              ariaLabel="CMC Global"
             >
-              CMC Global
-            </a>{" "}
+              {" "}
+              <span className="font-bold">CMC Global</span>
+            </LinkComponent>{" "}
             in Viet Nam. Thank you for visiting my resume website!
           </p>
           <div className="flex justify-center gap-5 lg:justify-start">
-            <a
+            <LinkComponent
               href="mailto:phuc.nguyen-the@outlook.com"
-              className="justify-center hover:text-primary"
-              aria-label="My email address"
-              target="_blank"
-              rel="noreferrer"
+              ariaLabel="My email address"
             >
               <FaEnvelope size={32} />
-            </a>
-            <a
+            </LinkComponent>
+            <LinkComponent
               href="https://github.com/NationsAnarchy"
-              className="justify-center hover:text-primary"
-              aria-label="My Github repository"
-              target="_blank"
-              rel="noreferrer noopener"
+              ariaLabel="My Github repository"
             >
               <FaGithubSquare size={32} />
-            </a>
-            <a
+            </LinkComponent>
+            <LinkComponent
               href="https://phucnguyen0110.vercel.app"
-              className="justify-center hover:text-primary"
-              aria-label="My personal blog"
-              target="_blank"
-              rel="noreferrer noopener"
+              ariaLabel="My personal blog"
             >
               <FaGlobeAsia size={32} />
-            </a>
-            <a
+            </LinkComponent>
+            <LinkComponent
               href="https://linkedin.com/in/phucnguyen0110"
-              className="justify-center hover:text-primary"
-              aria-label="My LinkedIn profile"
-              target="_blank"
-              rel="noreferrer noopener"
+              ariaLabel="My LinkedIn profile"
             >
               <FaLinkedin size={32} />
-            </a>
-            <a
+            </LinkComponent>
+            <LinkComponent
               href="skype:live:phuc.nguyen-the?add"
-              className="justify-center hover:text-primary"
-              aria-label="My Skype account"
-              target="_blank"
-              rel="noreferrer noopener"
+              ariaLabel="My Skype account"
             >
               <FaSkype size={32} />
-            </a>
+            </LinkComponent>
           </div>
         </div>
       </div>

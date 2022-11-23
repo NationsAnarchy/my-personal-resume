@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 
-import Hero from "lib/components/Hero";
-import Introduction from "lib/components/Introduction";
-import Technical from "lib/components/Technical";
+import Hero from "lib/components/sections/Hero";
+import Introduction from "lib/components/sections/Introduction";
+import Technical from "lib/components/sections/Technical";
 
 const Home: NextPage = () => {
   return (
